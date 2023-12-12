@@ -10,7 +10,7 @@
     },
     "layers": [
         {
-            "mediaType": "application/vnd.oci.image.layer.v1.tar",
+            "mediaType": "application/octet-stream",
             "digest": "sha256:2536d32a8d81c95b8261926e57e34e00b32a7ea22eef96c653ce29be1e64f7e1",
             "size": 421403,
             "annotations": {

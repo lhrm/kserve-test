@@ -18,4 +18,5 @@ cosign tree quay.io/mmortari/mnist:v20231206163028
 
 ```
 oras manifest fetch quay.io/mmortari/mnist:v1.nb20231206162408
+oras manifest push quay.io/mmortari/mnist:v1.nb20231206162408 v1.nb20231206162408/manifest.json
 ```
