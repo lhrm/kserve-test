@@ -21,3 +21,9 @@ oras manifest fetch quay.io/mmortari/mnist:v1.nb20231206162408
 oras manifest push quay.io/mmortari/mnist:v1.nb20231206162408 v1.nb20231206162408/manifest.json
 oras manifest fetch quay.io/mmortari/mnist:v1.nb20231206162408 > v1.nb20231206162408/manifest.json
 ```
+
+This will re-download and output to `v1.nb20231206162408` directory:
+
+```
+oras pull quay.io/mmortari/mnist:v1.nb20231206162408 --verbose
+```
