@@ -3,14 +3,14 @@ platform: "onnxruntime_onnx"
 max_batch_size: 1
 input [
   {
-    name: "input_1"
+    name: "x" # 모델의 실제 입력 이름으로 수정 
     data_type: TYPE_FP32
     dims: [ 1, 28, 28 ]
   }
 ]
 output [
   {
-    name: "output_1"
+    name: "dense_2" # 모델의 실제 출력 이름으로 수정
     data_type: TYPE_FP32
     dims: [ 10 ]
   }
